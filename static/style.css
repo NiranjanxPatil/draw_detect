@@ -1,0 +1,43 @@
+body {
+  font: 14px "Helvetica", Inter, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00b7ff;
+}
+
+h1 {
+  border-left: 5px solid #333;
+  padding-left: 5px;
+}
+
+button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buttons-container {
+  margin-top: 15px;
+}
+
+#defaultCanvas0 {
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+}
+
+.custom-navbar {
+  background-color: #f0f0f0; /* Custom background color */
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 28px; /* Custom font size */
+  font-weight: normal; /* Custom font weight */
+  color: #000000; /* Custom text color */
+}
+.custom-navbar .nav-link {
+  font-size: 14px; /* Custom font size */
+  color: #090909; /* Custom text color */
+}
