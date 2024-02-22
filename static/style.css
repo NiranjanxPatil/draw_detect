@@ -2,6 +2,7 @@ body {
   font: 14px "Helvetica", Inter, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #6883BC; /* Change the background color */
 }
 
 a {
@@ -17,6 +18,9 @@ button {
   padding: 15px;
   cursor: pointer;
   font-size: 16px;
+  background-color: #8A307F; /* Change the button color */
+  border-color: #8A307F;
+  color: #fff; /* Text color for light buttons */
 }
 
 .buttons-container {
@@ -29,15 +33,17 @@ button {
 }
 
 .custom-navbar {
-  background-color: #f0f0f0; /* Custom background color */
+  background-color: #79A7D3; /* Change the navbar background color */
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 28px; /* Custom font size */
-  font-weight: normal; /* Custom font weight */
-  color: #000000; /* Custom text color */
+  font-size: 28px;
+  font-weight: normal;
+  color: #000000;
 }
+
 .custom-navbar .nav-link {
-  font-size: 14px; /* Custom font size */
-  color: #090909; /* Custom text color */
+  font-size: 14px;
+  color: #090909;
 }
+

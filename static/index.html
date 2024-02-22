@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Draw & Guess.ai by yash</title>
+    <title>Draw & Detect </title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
@@ -14,6 +14,8 @@
     href="favicon.png"
     />
 
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -24,27 +26,27 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <!-- As a heading -->
-      <nav class="navbar fixed-top navbar-expand-xl navbar-light custom-navbar">
-        <span class="navbar-brand mb-0 px-4 h1">Draw and let AI guess it!</span>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto px-4">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://github.com/NiranjanxPatil"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-          </ul>
+    <header class="bg-white fixed top-0 w-full z-50">
+      <nav class="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-3 px-6 bg-white shadow sm:items-baseline w-full">
+        <div class="mb-2 sm:mb-0">
+          <a href="#" class="text-xl font-weight-bolder hover:no-underline text-gray-800 hover:text-black">Draw & Detect AI.</a>
+        </div>
+        <div class="font-sans text-gray-700 text-base">
+          Minor Project TY (Artificial Intelligence & Machine Learning)
+        </div>
+        <div>
+          <a href="https://github.com/NiranjanxPatil/draw_detect" class="text-sm hover:no-underline text-gray-600 hover:text-gray-800 ml-2">Github</a>
+    
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="container px-2 mt-5">
-      <div class="content py-3 pt-5">
+     <div class="font-sans text-3xl font-bold text-gray-800 mt-24 text-center" >
+      Shivajiraos college of engineering, Dombivli
+     </div> 
+    
+    <div class="container px-2 mt-2">
+      <div class="content py-3 pt-2">
         <div class="row">
           <div class="col-12 col-md-auto">
             <main></main>
@@ -71,6 +73,35 @@
         </div>
       </div>
     </div>
+
+
+
+    <!-- Footer -->
+      
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const slider = document.querySelector('#slider');
+      setTimeout(function moveSlide() {
+          const max = slider.scrollWidth - slider.clientWidth;
+          const left = slider.clientWidth;
+  
+          if (max === slider.scrollLeft) {
+              slider.scrollTo({left: 0, behavior: 'smooth'})
+          } else {
+              slider.scrollBy({left, behavior: 'smooth'})
+          }
+  
+          setTimeout(moveSlide, 1500)
+      }, 1500)
+  })
+  </script>
+
+<div class="bg-gradient-to-t from-green-200 to-green-50 text-gray-800 space-y-4 flex-none w-full flex flex-col items-center justify-center pb-3 ">
+<h2 class="text-base max-w-md ">Under the guidance of Prof.XYZ</h2>
+</div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.8/dist/tf-tflite.min.js"></script>
 
